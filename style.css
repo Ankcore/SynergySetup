@@ -2,10 +2,23 @@
     box-sizing: border-box;
 }
 
+html,
 body {
+    height: 100%;
     margin: 0;
     padding: 0;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+main {
+    flex-grow: 1;
+}
+
 
 header {
     background-color: #333;
@@ -86,6 +99,21 @@ img {
 
 }
 
+.halfsideText {
+    max-width: 900px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    /* выбор шрифта */
+    font-size: 18px;
+    /* размер шрифта */
+    line-height: 1.5;
+    /* интерлиньяж (межстрочный интервал) */
+    color: #333;
+    /* цвет текста */
+    text-align: justify;
+
+}
+
 h1,
 h2,
 h3,
@@ -93,6 +121,7 @@ h4,
 h5,
 h6 {
     font-weight: bold;
+    text-align: center;
 
 }
 
@@ -116,3 +145,4 @@ footer {
     left: 0;
     width: 100%;
     text-align: center;
+}
