@@ -30,6 +30,7 @@ header {
     position: fixed;
     z-index: 999;
     text-align: center;
+
 }
 
 nav {
@@ -50,6 +51,7 @@ ul {
     display: flex;
 
     margin: 10;
+
     padding: 0;
 }
 
@@ -73,6 +75,7 @@ nav a:hover {
 }
 
 main {
+    background-color: #ebebeb;
     margin-top: 200px;
     padding: 10px;
 }
@@ -82,6 +85,7 @@ img {
     display: block;
     margin: 0 auto;
     max-width: 100%;
+    border-radius: 2%;
 }
 
 .mainText {
@@ -138,8 +142,10 @@ a:hover {
 }
 
 footer {
+    background-color: #555;
+    color: #fff;
     font-size: 14px;
-    color: gray;
+    /* color: gray; */
     padding: 10px;
     top: 0;
     left: 0;
